@@ -1,0 +1,33 @@
+{
+  "name": "vfs-neo",
+  "version": "0.1.1",
+  "description": "Virtual File System — unified file storage interface supporting multiple backends (local disk, memory, S3, jsql-neo)",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": {
+      "import": "./lib/index.mjs",
+      "require": "./lib/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vexify-org/vfs-neo.git"
+  },
+  "author": "vexify-root",
+  "homepage": "https://github.com/vexify-org/vfs-neo#readme",
+  "bugs": {
+    "url": "https://github.com/vexify-org/vfs-neo/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "vfs",
+    "virtual-file-system",
+    "storage",
+    "s3",
+    "jsql"
+  ],
+  "license": "Apache-2.0",
+  "files": ["lib", "README.md", "LICENSE"]
+}
