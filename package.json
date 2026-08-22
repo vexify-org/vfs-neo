@@ -29,5 +29,8 @@
     "jsql"
   ],
   "license": "Apache-2.0",
-  "files": ["lib", "README.md", "LICENSE"]
+  "files": ["lib", "README.md", "LICENSE"],
+  "dependencies": {
+    "vs3-neo": "^0.1.0"
+  }
 }
