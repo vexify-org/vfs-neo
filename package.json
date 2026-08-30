@@ -30,6 +30,9 @@
   ],
   "license": "Apache-2.0",
   "files": ["lib", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  },
   "dependencies": {
     "vs3-neo": "^0.1.0"
   }
